@@ -1,0 +1,53 @@
+<acceptance-test-run title="Login fail with valid Skype name and invalid password" name="Login fail with valid Skype name and invalid password" description="" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="24153" timestamp="2016-06-15T01:28:10.769+07:00" session-id="7575a1ad-64a6-4f71-9cf2-fc83a7aef990">
+  <user-story id="login-to-system" name="Login to system" path="login/LoginSystem.feature"/>
+  <tags>
+    <tag name="Login" type="capability"/>
+    <tag name="Login/Login to system" type="feature"/>
+    <tag name="tag" type="tag"/>
+    <tag name="tag1" type="tag"/>
+  </tags>
+  <test-group name="Given user go to page https://login.skype.com/login" result="SUCCESS">
+    <screenshots>
+      <screenshot image="ee462effd982c71d41b1777f12ece9a3.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="19613">
+      <screenshots>
+        <screenshot image="ee462effd982c71d41b1777f12ece9a3.png"/>
+      </screenshots>
+      <description>Open login page</description>
+    </test-step>
+  </test-group>
+  <test-group name="And enter valid skype name is &quot;phuongtt6103&quot; and invalid password is &quot;123456dh&quot;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="ee8e1298c08575d5beb468ae473c5f4e.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="542">
+      <screenshots>
+        <screenshot image="ee8e1298c08575d5beb468ae473c5f4e.png"/>
+      </screenshots>
+      <description>Enter valid name invalid pass: phuongtt6103, 123456dh</description>
+    </test-step>
+  </test-group>
+  <test-group name="When user click Signin button" result="SUCCESS">
+    <screenshots>
+      <screenshot image="5e2971524dcdb4a78999aa44cb93545f.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1914">
+      <screenshots>
+        <screenshot image="5e2971524dcdb4a78999aa44cb93545f.png"/>
+      </screenshots>
+      <description>Click</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then page show message &quot;Signing in failed. Please double-check your Skype Name and re-enter your password.&quot;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="5e2971524dcdb4a78999aa44cb93545f.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="246">
+      <screenshots>
+        <screenshot image="5e2971524dcdb4a78999aa44cb93545f.png"/>
+      </screenshots>
+      <description>Get msg</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

@@ -1,0 +1,54 @@
+<acceptance-test-run title="Login fail with valid Skype name and valid password" name="Login fail with valid Skype name and valid password" description="" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="15380" timestamp="2016-06-15T01:28:47.749+07:00" session-id="7575a1ad-64a6-4f71-9cf2-fc83a7aef990">
+  <user-story id="login-to-system" name="Login to system" path="login/LoginSystem.feature"/>
+  <tags>
+    <tag name="Login" type="capability"/>
+    <tag name="Login/Login to system" type="feature"/>
+    <tag name="tag" type="tag"/>
+  </tags>
+  <test-group name="Given user go to page https://login.skype.com/login" result="SUCCESS">
+    <screenshots>
+      <screenshot image="3600a01a022d8632374da4d1f1f76a42.png"/>
+      <screenshot image="9be6582a8e225e9b3117fd70010b3d2a.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="3394">
+      <screenshots>
+        <screenshot image="3600a01a022d8632374da4d1f1f76a42.png"/>
+        <screenshot image="9be6582a8e225e9b3117fd70010b3d2a.png"/>
+      </screenshots>
+      <description>Open login page</description>
+    </test-step>
+  </test-group>
+  <test-group name="And enter valid skype name is &quot;phuongtt6103&quot; and valid password is &quot;Phuong123456&quot;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="fad35873c72266a1af9528976b6c2f8f.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="473">
+      <screenshots>
+        <screenshot image="fad35873c72266a1af9528976b6c2f8f.png"/>
+      </screenshots>
+      <description>Enter valid name valid pass: phuongtt6103, Phuong123456</description>
+    </test-step>
+  </test-group>
+  <test-group name="When user click Signin button" result="SUCCESS">
+    <screenshots>
+      <screenshot image="e4df7c0db03b89a14f3173fcfd9a7de8.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="8208">
+      <screenshots>
+        <screenshot image="6290cd46cf0c95d627a9f4ed979628b6.png"/>
+      </screenshots>
+      <description>Click</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then page direct to home page with title is &quot;Skype My Account&quot;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="e4df7c0db03b89a14f3173fcfd9a7de8.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="754">
+      <screenshots>
+        <screenshot image="e4df7c0db03b89a14f3173fcfd9a7de8.png"/>
+      </screenshots>
+      <description>Get title</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>
